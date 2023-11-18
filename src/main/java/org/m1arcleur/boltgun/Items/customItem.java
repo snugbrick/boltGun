@@ -1,0 +1,26 @@
+package org.m1arcleur.boltgun.Items;
+
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
+import org.checkerframework.checker.nullness.qual.NonNull;
+
+import java.util.List;
+
+/**
+ * @author MiracleUR -> github.com/snugbrick
+ * @version 1.0.0 2023.11.18 23:17
+ */
+public class customItem {
+    public static ItemStack addItemNBT(@NonNull Material item, @NonNull List<String> lore) {
+        ItemStack itemStack = new ItemStack(item);
+        ItemMeta meta = itemStack.getItemMeta();
+
+        if (meta != null) {
+            meta.setLore(lore);
+        }
+
+        itemStack.setItemMeta(meta);
+        return itemStack;
+    }
+}
