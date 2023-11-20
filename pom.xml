@@ -72,6 +72,14 @@
         </dependency>
 
         <dependency>
+            <groupId>local.spigot.nmsapi</groupId>
+            <artifactId>SpigotNMS</artifactId>
+            <version>1.20.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/spigot-api-1.20.1-R0.1-SNAPSHOT.jar</systemPath>
+        </dependency>
+
+        <dependency>
             <groupId>local.spigot.nms</groupId>
             <artifactId>SpigotNMS</artifactId>
             <version>1.20.1</version>

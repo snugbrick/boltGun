@@ -1,4 +1,4 @@
 name: boltGun
-version: '${project.version}'
+version: 0.0.1
 main: org.m1arcleur.boltgun.BoltGun
 api-version: '1.20'

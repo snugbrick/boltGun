@@ -8,7 +8,7 @@ import java.util.ArrayList;
 /**
  * @author MiracleUR -> github.com/snugbrick
  * @version 1.0.0 2023.11.19 01:25
- *
+ * <p>
  * 注册武器
  */
 public class boltGun {

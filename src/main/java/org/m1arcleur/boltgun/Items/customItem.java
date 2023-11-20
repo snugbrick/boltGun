@@ -1,5 +1,6 @@
 package org.m1arcleur.boltgun.Items;
 
+import net.minecraft.nbt.NBTTagCompound;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -19,6 +20,9 @@ public class customItem {
         if (meta != null) {
             meta.setLore(lore);
         }
+
+        NBTTagCompound nbtTagCompound=new NBTTagCompound();
+        //nbtTagCompound. | nms without decompilation???
 
         itemStack.setItemMeta(meta);
         return itemStack;
