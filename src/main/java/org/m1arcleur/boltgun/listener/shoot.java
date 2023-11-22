@@ -20,7 +20,7 @@ public class shoot implements Listener {
             Player player = event.getPlayer();
             //player.getEquipment().getItemInMainHand()
             if (player.getInventory().getItemInMainHand().equals(boltGun.aBoltGun)) {
-                player.setHealth(0.00);//记得把这个删除了 remember to delete this
+                player.setHealth(0.00);//记得把这个删除了! remember to delete this
             }
         }
     }

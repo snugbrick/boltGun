@@ -15,8 +15,7 @@ public class boltGun {
     private static ArrayList<String> lore = new ArrayList<>();
 
     static {
-        lore.add("§7§l§oBolt Gun");
     }
 
-    public static ItemStack aBoltGun = customItem.addItemNBT(Material.DIAMOND_HORSE_ARMOR, lore);
+    public static ItemStack aBoltGun = customItem.addItemNBT(Material.DIAMOND_HORSE_ARMOR, "boltGun", "boltGun");
 }
