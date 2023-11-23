@@ -1,6 +1,6 @@
 package org.m1arcleur.boltgun.Items;
 
-import net.querz.nbt.tag.CompoundTag;
+import net.minecraft.nbt.NBTTagCompound;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -17,12 +17,9 @@ public class customItem {
 /*
         NBT.modify(itemStack, nbt -> {
             nbt.setString("Stringtest", "Teststring");
-            nbt.setInteger("Inttest", 42);
-            nbt.setDouble("Doubletest", 1.5d);
-            nbt.setBoolean("Booleantest", true);
-            //More are available! Ask your IDE/Javadocs for suggestions!
-        }); it s hard to be a mussel this api is dead 难蚌，API死了，<-这个翻译也难蚌，哈哈哈哈
- */
+        }); "it s hard to be a mussel and this api is dead" 难蚌，API死了，<-这个翻译也难蚌，哈哈哈哈 :(
+*/
+        NBTTagCompound TC = new NBTTagCompound();//this project is dead unless i find a new api
 
         itemStack.setItemMeta(meta);
         return itemStack;
